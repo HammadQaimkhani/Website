@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontAwesome/css/all.css">
+
     <link rel="stylesheet" href="index.css">
     <title>Dawood Super Store</title>
 </head>
@@ -15,15 +17,16 @@
                 <button type="button" class="toggle-btn"onclick="register()">register</button>
             </div>
             <form action="#" id="login" class="input-group">
-                <input type="text" class="input-field" placeholder="User Id" required>
-                <input type="password" class="input-field" placeholder="Enter Password" required>
+               
+                <input type="text" class="input-field" placeholder="User Id" required> <i class="fas fa-user user"></i>
+                <input type="password" class="input-field" placeholder="Enter Password" required><i class="fas fa-lock pass" ></i>
                 <input type="checkbox"  class="check-box"><span>Remember Password</span>
                 <button type="submit" class="submit-btn">Log in</button>
             </form>
             <form action="#" id="register" class="input-group">
-                <input type="text" class="input-field" placeholder="User Id" required>
-                <input type="email" class="input-field" placeholder="Enter E-mail" required>
-                <input type="password" class="input-field" placeholder="Enter Password" required>
+                <input type="text" class="input-field" placeholder="User Id" required><i class="fas fa-user user"></i>
+                <input type="email" class="input-field" placeholder="Enter E-mail" required><i class="fas fa-envelope email"></i>
+                <input type="password" class="input-field" placeholder="Enter Password" required><i class="fas fa-lock pass" ></i>
                 <input type="checkbox"  class="check-box"><span>I agree to the term & conditions</span>
                 <button type="submit" class="submit-btn">Register</button>
             </form>
